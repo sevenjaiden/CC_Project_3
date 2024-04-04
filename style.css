@@ -1,0 +1,465 @@
+.main {
+    margin: auto;
+    background-color: rgb(103, 122, 164);
+}
+
+#container-1 {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+}
+
+.titles {
+    color: whitesmoke;
+    white-space: nowrap;
+    text-align: center;
+    align-self: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+#page-1-title {
+    grid-area: 9 / 8 / 10 / 15;
+    font-size: 50px;
+    font-family: "DM Sans", sans-serif;
+}
+
+#start-link {
+    color: whitesmoke;
+    grid-area: 11 / 10 / 13 / 13;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#start-link:hover {
+    color: rgb(103, 122, 164); 
+    background-color: lightgray;
+}
+
+#subtitle-1 {
+    grid-area: 10 / 9 / 11 / 14;
+    color: rgb(163, 173, 198);
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+#page-2-title {
+    grid-area: 4 / 1 / 5 / 12;
+    white-space: nowrap;
+    font-size: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.page-2-options {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    align-self: center;
+}
+
+
+#page-2-yes {
+    grid-area: 6 / 5 / 7 / 6;
+}
+
+#page-2-button-yes {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 30px;
+}
+
+#page-2-button-yes:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+} 
+
+#page-2-no {
+    grid-area: 6 / 7 / 7 / 8;
+}
+
+#page-2-button-no {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 30px;
+}
+
+#page-2-button-no:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+} 
+
+#page-3-title {
+    grid-area: 4 / 1 / 5 / 12;
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+}
+
+#input-1 {
+    grid-area: 6 / 6 / 7 / 7;
+    text-align: center;
+    align-self: center;
+}
+
+#submit-1 {
+    font-family: "DM Sans", sans-serif;
+    grid-area: 7 / 6 / 8 / 7;
+}
+
+#page-4-title {
+    grid-area: 4 / 1 / 5 / 12;
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.del-count {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#del-count-1 {
+    grid-area: 6 / 2 / 7 / 5;
+}
+
+#del-count-2 {
+    grid-area: 6 / 5 / 7 / 8;
+}
+
+#del-count-3 {
+    grid-area: 6 / 8 / 7 / 11;
+}
+
+#page-4-button-1 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+}
+
+#page-4-button-1:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-4-button-2 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+}
+
+#page-4-button-2:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-4-button-3 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+}
+
+#page-4-button-3:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-5-title {
+    grid-area: 4 / 1 / 5 / 12;
+    font-size: 50px;
+    font-family: "DM Sans", sans-serif;
+}
+.del-type {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#del-type-1 {
+    grid-area: 6 / 2 / 7 / 5;
+}
+
+#del-type-2 {
+    grid-area: 6 / 5 / 7 / 8;
+}
+
+#del-type-3 {
+    grid-area: 6 / 8 / 7 / 11;
+}
+
+#page-5-button-1 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+}
+
+#page-5-button-1:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-5-button-2 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+}
+
+#page-5-button-2:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-5-button-3 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+}
+
+#page-5-button-3:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+
+#page-6-title {
+    grid-area: 4 / 1 / 5 / 12;
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+}
+.ret {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#page-6-button-1 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+#page-6-button-1:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-6-button-2 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+#page-6-button-2:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-6-button-3 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+#page-6-button-3:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#ret-1 {
+    grid-area: 6 / 4 / 7 / 5
+}
+
+#ret-2 {
+    grid-area: 6 / 6 / 7 / 7
+}
+
+#ret-3 {
+    grid-area: 6 / 8 / 7 / 9
+}
+
+#page-7-title {
+    grid-area: 4 / 1 / 5 / 12;
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+}
+.sleep {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#page-7-button-1 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+#page-7-button-1:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-7-button-2 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+#page-7-button-2:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+#page-7-button-3 {
+    color: whitesmoke;
+    background-color: rgb(103, 122, 164);
+    padding: 5px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+#page-7-button-3:hover {
+    background-color: lightgray;
+    color: rgb(103, 122, 164);
+}
+
+
+#sleep-1 {
+    grid-area: 6 / 2 / 7 / 5;
+}
+
+#sleep-2 {
+    grid-area: 6 / 5 / 7 / 8;
+}
+
+#sleep-3 {
+    grid-area: 6 / 8 / 7 / 11;
+}
+
+
+#tracker-title {
+    grid-area: 3 / 5 / 4 / 8;
+    color: whitesmoke;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    align-self: center;
+    font-size: 50px;
+}
+
+#list {
+    grid-area: 5 / 4 / 6 / 9;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    color: whitesmoke;
+}
+
